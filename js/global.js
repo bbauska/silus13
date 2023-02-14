@@ -6,7 +6,7 @@ $( function() {
 // Add background image
 		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
 		
-        var endDate = "Oct  10, 2021 23:59:59";
+        var endDate = "Oct  10, 2023 11:59:59";
 
         $('.countdown.simple').countdown({ date: endDate });
 
