@@ -1,6 +1,5 @@
 /*
-Theme by: WebThemez.com
-Note: Please use our back link in your site
+Theme by: bbauska
 */
 $( function() {
 // Add background image
