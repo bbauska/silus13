@@ -100,7 +100,7 @@ width:34px;
 height:34px; 
 display: inline-block;
 }
-.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
+.twitterIcon, .facebookIcon, .linkedInIcon, .snapchatIcon{
 background: url('../images/social-icons.png') -74px 0px;
 }
 .facebookIcon{
@@ -109,7 +109,7 @@ background-position: 10px 0px;
 .linkedInIcon{
 background-position: -245px 0px;
 }
-.pintrestIcon{
+.snapchatIcon{
 background-position: -331px 0px;
 }
 .tempBy{
