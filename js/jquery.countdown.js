@@ -7,7 +7,7 @@ Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
 and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
 
 @source: http://github.com/rendro/countdown/
-@autor: Robert Fleischmann
+@author: Brian Bauska
 @version: 1.0.1
 */
 
