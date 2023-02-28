@@ -101,16 +101,16 @@ height:34px;
 display: inline-block;
 }
 .twitterIcon, .facebookIcon, .linkedInIcon, .snapchatIcon{
-background: url('../images/social-icons.png') -74px 0px;
+background: url('../images/twitter.png') -74px 0px;
 }
 .facebookIcon{
-background-position: 10px 0px;
+background: url('../images/facebook.png') 10px 0px;
 }
 .linkedInIcon{
-background-position: -245px 0px;
+background: url('../images/linkedin.png') -245px 0px;
 }
 .snapchatIcon{
-background-position: -331px 0px;
+background: url('../images/snapchat.png') -331px 0px;
 }
 .tempBy{
 display:block;
