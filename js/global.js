@@ -1,12 +1,12 @@
 /*
-Theme by: bbauska
+Theme by: brian a. bauska
 */
 $( function() {
 // Add background image
 		$.backstretch('images/Silus Halloween.jpg');
 
 //		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
-		
+// Birthdate: 10/10/10.
         var endDate = "Oct  10, 2023 11:59:59";
 
         $('.countdown.simple').countdown({ date: endDate });
