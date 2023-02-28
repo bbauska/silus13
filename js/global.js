@@ -3,7 +3,9 @@ Theme by: bbauska
 */
 $( function() {
 // Add background image
-		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
+		$.backstretch('images/Silus Halloween.jpg');
+
+//		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
 		
         var endDate = "Oct  10, 2023 11:59:59";
 
