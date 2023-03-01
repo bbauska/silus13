@@ -100,17 +100,17 @@ width:34px;
 height:34px; 
 display: inline-block;
 }
-.twitterIcon, .facebookIcon, .linkedInIcon, .snapchatIcon{
-background: url('../images/twitter.png') -74px 0px;
+.twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon{
+background: url('../images/twitter.png');
 }
 .facebookIcon{
-background: url('../images/facebook.png') 10px 0px;
+background: url('../images/facebook.png');
 }
 .linkedInIcon{
-background: url('../images/linkedin.png') -245px 0px;
+background: url('../images/linkedin.png');
 }
 .snapchatIcon{
-background: url('../images/snapchat.png') -331px 0px;
+background: url('../images/snapchat.png');
 }
 .tempBy{
 display:block;
@@ -286,4 +286,18 @@ margin:10px;
 	footer{
 	position:relative !important;
 	}
+<!--
 }
+.twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon{
+background: url('../images/twitter.png') -74px 0px;
+}
+.facebookIcon{
+background: url('../images/facebook.png') 10px 0px;
+}
+.linkedInIcon{
+background: url('../images/linkedin.png') -245px 0px;
+}
+.snapchatIcon{
+background: url('../images/snapchat.png') -331px 0px;
+}
+-->
