@@ -260,7 +260,7 @@ margin:10px;
 	}
 	.styled div {
 	  margin-bottom:10px;
-	  font-size: 40px;
+	  font-size: 30px;  /* 40px */
 	  font-weight: normal; 
 	  text-align: center;
 	  width:80px; 
