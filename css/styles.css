@@ -89,18 +89,18 @@ text-align: center;
 }
 #socialIcons ul li {
 margin-right: 5px;
-height: 24px;  /* 34px */
-line-height: 24px;  /* 34pz */
+height: 14px;  /* 34px */
+line-height: 14px;  /* 34pz */
 list-style-type: none;
 display: inline-block;
 background: rgba(255, 255, 255, 0.44);
 }
 #socialIcons ul li a{
-width:24px;  /* 34px */
-height:24px; 
+width:14px;  /* 34px */
+height:14px; /* 34px */
 display: inline-block;
 }
-.twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon{
+.twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon, youtubeIcon{
 background: url('../images/twitter.png');
 }
 .facebookIcon{
@@ -286,18 +286,4 @@ margin:10px;
 	footer{
 	position:relative !important;
 	}
-<!--
-}
-.twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon{
-background: url('../images/twitter.png') -74px 0px;
-}
-.facebookIcon{
-background: url('../images/facebook.png') 10px 0px;
-}
-.linkedInIcon{
-background: url('../images/linkedin.png') -245px 0px;
-}
-.snapchatIcon{
-background: url('../images/snapchat.png') -331px 0px;
-}
--->
+
