@@ -89,15 +89,15 @@ text-align: center;
 }
 #socialIcons ul li {
 margin-right: 5px;
-height: 14px;  /* 34px */
-line-height: 14px;  /* 34pz */
+height: 12px;  /* 34px */
+line-height: 12px;  /* 34pz */
 list-style-type: none;
 display: inline-block;
 background: rgba(255, 255, 255, 0.44);
 }
 #socialIcons ul li a{
-width:14px;  /* 34px */
-height:14px; /* 34px */
+width:12px;  /* 34px */
+height:12px; /* 34px */
 display: inline-block;
 }
 .twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon, youtubeIcon{
