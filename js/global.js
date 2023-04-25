@@ -3,7 +3,7 @@ Theme by: brian a. bauska
 */
 $( function() {
 // Add background image
-		$.backstretch('images/Silus Halloween.jpg');
+		$.backstretch('images/Silus and Kitterson.jpg');
 
 //		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
 // Birthdate: 10/10/10.
