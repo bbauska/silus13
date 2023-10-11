@@ -1,69 +1,69 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 body {
-	color:#FFF; 
-	font-family: 'Oswald', sans-serif; 
-	min-width:960px;
-	top:0;
-	left:0;
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin:0;
-	/*background:url(../images/road2.jpg) no-repeat;*/
-	background-size:cover;
+  color:#ffffff;  /* white */
+  font-family: 'Oswald', sans-serif; 
+  min-width:960px;
+  top:0;
+  left:0;
+  position:absolute;
+  height:100%;
+  width:100%;
+  margin:0;
+  /*background:url(../images/road2.jpg) no-repeat;*/
+  background-size:cover;
 }
 .ie body {
-	filter: dropshadow(color=#000000, offx=0, offy=1);	
+  filter: dropshadow(color=#000000, offx=0, offy=1);
 }
 h1 {
-	font-size:68px;
-	letter-spacing:-2px;	
-	line-height:60px;
-	margin:25px 0;  
-	text-align:center;
-	margin-left:15px;
-	padding-top:20px;
+  font-size:68px;
+  letter-spacing:-2px;	
+  line-height:60px;
+  margin:25px 0;  
+  text-align:center;
+  margin-left:15px;
+  padding-top:20px;
 }
 .ie h1 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-	padding-bottom:12px;	
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+  padding-bottom:12px;	
 }
 h2 { 
 }
 .ie h2 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+  filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
-	font-size:25px;
-	margin:0.2em 0; 
+  font-size:25px;
+  margin:0.2em 0; 
 }
 .ie h3 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+  filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h4 {
-	margin-bottom:5px;	
+  margin-bottom:5px;	
 }
 p, pre {
-	margin:0 0 10px 0; 
+  margin:0 0 10px 0; 
 }
 code {
-	text-transform:uppercase !important;
-	color:#EEE;	
-	border-bottom:1px dotted #666;
+  text-transform:uppercase !important;
+  color:#eee;  /* very light gray */
+  border-bottom:1px dotted #666;
 }
 small {
-	background:url(../images/alpha.png);
-	background:rgba(0, 0, 0, 0.8) url();	
-	border:1px solid #111;
-	font-size:15px;
-	padding:0 5px;
+  background:url(../images/alpha.png);
+  background:rgba(0, 0, 0, 0.8) url();	
+  border:1px solid #111;
+  font-size:15px;
+  padding:0 5px;
 }
 a {
-	color:rgba(0, 210, 255, 1);
-	text-decoration:none;	
+  color:rgba(0, 210, 255, 1);
+  text-decoration:none;	
 }
 a:hover {
-	color:#BBB;	
+  color:#bbbbbb;  /* gray */
 } 
 #Header {
 margin-bottom: 62px;
@@ -79,39 +79,6 @@ position: relative;
 width: 920px;
 z-index: 1;
 }
-#socialIcons {
-display:block;
-}
-#socialIcons ul {
-margin: 0px; 
-padding:0px;
-text-align: center;
-}
-#socialIcons ul li {
-margin-right: 5px;
-height: 12px;  /* 34px */
-line-height: 12px;  /* 34pz */
-list-style-type: none;
-display: inline-block;
-background: rgba(255, 255, 255, 0.44);
-}
-#socialIcons ul li a{
-width:12px;  /* 34px */
-height:12px; /* 34px */
-display: inline-block;
-}
-.twitterIcon, .facebookIcon, .linkedinIcon, .snapchatIcon, youtubeIcon{
-background: url('../images/twitter.png');
-}
-.facebookIcon{
-background: url('../images/facebook.png');
-}
-.linkedInIcon{
-background: url('../images/linkedin.png');
-}
-.snapchatIcon{
-background: url('../images/snapchat.png');
-}
 .tempBy{
 display:block;
 text-align:center;
@@ -123,7 +90,7 @@ padding: 0px;
 text-align: center;
 font-size: 48px;
 font-weight: 300;
-color:#00D2FF;
+color:#00d2ff;  /* pure cyan */
 }
 #WindowSlide {
 margin: 0 auto;
@@ -167,13 +134,12 @@ cursor: pointer;
 margin-left: -5px;
 }
 
-
 .callback,
 .simple {
   font-size: 20px;
   background: #27ae60;
   padding: 0.5em 0.7em;
-  color: #ecf0f1;
+  color: #ecf0f1;  /* light grayish cyan */
   margin-bottom: 50px;
   -webkit-transition: background 0.5s ease-out;
   transition: background 0.5s ease-out;
@@ -182,7 +148,7 @@ margin-left: -5px;
   cursor: pointer;
 }
 .ended {
-  background: #c0392b;
+  background: #c0392b;  /* strong red */
 }
 .countdown {
 text-align:center;
@@ -225,7 +191,7 @@ opacity:0.8;
 }
 .styled div span {
   display: block;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #cecece;  /* light gray */
   padding-top: 3px;
   font-size: 19px;
   font-weight: normal; 
@@ -246,7 +212,6 @@ margin:10px;
   body {
     min-width: initial !important;
   }
-  .wrapper{width:100%;}
   .styled div {
     margin-bottom:10px; 
   }
@@ -286,19 +251,9 @@ margin:10px;
   footer{
   position:relative !important;
   }
+}
 <!-- added 10-11-2023 social icons -->
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #0f0f0f;
-}
+
 .sm a{
   display: inline-flex;
   text-decoration: none;
@@ -324,16 +279,16 @@ body{
   background: #38529a;
 }
 .sm a:nth-child(2)::before{
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: #f70000;
 }
 .sm a:nth-child(3)::before{
   background: #1c96e9;
 }
 .sm a:nth-child(4)::before{
-  background: #f70000;
+  background: #fffc00;
 }
 .sm a:nth-child(5)::before{
-  background: #046596;
+  background: #000000;
 }
 .sm a:hover::before{
   transform: scale(0);
@@ -342,31 +297,31 @@ body{
   transition: transform .3s ease-in;
 }
 .sm a:nth-child(1):hover i{
-  background: #38529a;
+  background: #38529a;  /* dark moderate blue - facebook */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
 .sm a:nth-child(2):hover i{
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: #f70000;  /* pure red - youtube */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
 .sm a:nth-child(3):hover i{
-  background: #1c96e9;
+  background: #1c96e9;  /* vivid blue - twiiter */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
 .sm a:nth-child(4):hover i{
-  background: #f70000;
+  background: #fffc00;  /* pure yellow - snapchat */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
 .sm a:nth-child(5):hover i{
-  background: #046596;
+  background: #000000;  /* black - github */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
