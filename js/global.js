@@ -7,7 +7,7 @@ $( function() {
 
 //		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
 // Birthdate: 10/10/10.
-        var endDate = "Oct  10, 2023 11:59:59";
+        var endDate = "Oct  11, 2023 11:59:59";
 
         $('.countdown.simple').countdown({ date: endDate });
 
