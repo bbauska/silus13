@@ -276,19 +276,22 @@ margin:10px;
   transition: transform .3s ease-in;
 }
 .sm a:nth-child(1)::before{
-  background: #38529a;
+  background: #4267b2;
 }
 .sm a:nth-child(2)::before{
-  background: #f70000;
+  background: #ff0000;
 }
 .sm a:nth-child(3)::before{
-  background: #1c96e9;
+  background: #1da1f2;
 }
 .sm a:nth-child(4)::before{
   background: #fffc00;
 }
 .sm a:nth-child(5)::before{
   background: #000000;
+}
+.sm a:nth-child(6)::before{
+  background: #47cf73;
 }
 .sm a:hover::before{
   transform: scale(0);
@@ -322,6 +325,12 @@ margin:10px;
 }
 .sm a:nth-child(5):hover i{
   background: #000000;  /* black - github */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+}
+.sm a:nth-child(5):hover i{
+  background: #47cf73;  /* ??? - codepen */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
