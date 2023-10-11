@@ -6,7 +6,7 @@ $( function() {
 		$.backstretch('images/Silus and Kitterson.jpg');
 //		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
 // date of birth: 10/11/10.
-        var endDate = "Oct  11, 2023 11:59:59";
+        var endDate = "Oct  11, 2023 23:59:59";
         $('.countdown.simple').countdown({ date: endDate });
         $('.countdown.styled').countdown({
           date: endDate,
