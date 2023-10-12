@@ -248,7 +248,7 @@ margin:10px;
   background: #b92b27;  /* quora - strong red */
 }
 .wrapper .button:nth-child(8):hover .icon {
-  background: #ff9900;  /* codepen -  */
+  background: #0ebeff;  /* codepen -  */
 }
 .wrapper .button:nth-child(9):hover .icon {
   background: #037d50;  /* dark green - e-mail */
@@ -269,13 +269,13 @@ margin:10px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1) span {
-  color: #4267b2;
+  color: #4267b2;  /* facebook */
 }
 .wrapper .button:nth-child(2) span {
-  color: #1da1f2;
+  color: #1da1f2;  /* twitter */
 }
 .wrapper .button:nth-child(3) span {
-  color: #b2071d;
+  color: #b2071d;  /* youtube */
 }
 .wrapper .button:nth-child(4) span {
   color: #0077b5;  /* linkedin */
@@ -290,7 +290,7 @@ margin:10px;
   color: #b92b27;  /* quora */
 }
 .wrapper .button:nth-child(8) span {
-  color: #ff9900;  /* amazon */
+  color: #0ebeff;  /* codepen */
 }
 .wrapper .button:nth-child(9) span {
   color: #037d50;  /* e-mail */
