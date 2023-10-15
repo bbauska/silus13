@@ -32,29 +32,32 @@
 .wrapper .button:nth-child(1):hover .icon {
   background: #4267b2;  /* facebook - dark moderate blue */
 }
-.wrapper .button:nth-child(2):hover .icon {
-  background: #1da1f2;  /* twitter - vivid blue */
-}
 .wrapper .button:nth-child(3):hover .icon {
   background: #ff0000;  /* youtube - pure red */
 }
-.wrapper .button:nth-child(4):hover .icon {
-  background: #0077b5;  /* linkedin - strong blue */
+.wrapper .button:nth-child(2):hover .icon {
+  background: #1da1f2;  /* twitter - vivid blue */
 }
 .wrapper .button:nth-child(5):hover .icon {
-  background: #fffc00;  /* snapchat - dark yellow */
+  background: #fffc00;  /* snapchat - pure yellow */
 }
 .wrapper .button:nth-child(6):hover .icon {
-  background: #171515;  /* github - very dark red */
-}
-.wrapper .button:nth-child(7):hover .icon {
-  background: #b92b27;  /* quora - strong red */
+  background: #4078c0;  /* github - moderate blue */
 }
 .wrapper .button:nth-child(8):hover .icon {
   background: #0ebeff;  /* codepen -  vivid blue */
 }
+.wrapper .button:nth-child(4):hover .icon {
+  background: #0a66c2;  /* linkedin - strong blue */
+}
+.wrapper .button:nth-child(7):hover .icon {
+  background: #b92b27;  /* quora - strong red */
+}
+.wrapper .button:nth-child(7):hover .icon {
+  background: #ff9900;  /* amazon - orange */
+}
 .wrapper .button:nth-child(9):hover .icon {
-  background: #037d50;  /* dark green - e-mail */
+  background: #037d50;  /* email - dark green */
 }
 .wrapper .button .icon i {
   font-size: 25px;
@@ -75,26 +78,29 @@
   color: #4267b2;  /* facebook */
 }
 .wrapper .button:nth-child(2) span {
-  color: #1da1f2;  /* twitter */
+  color: #ff0000;  /* youtube */
 }
 .wrapper .button:nth-child(3) span {
-  color: #b2071d;  /* youtube */
+  color: #1da1f2;  /* twitter */
 }
 .wrapper .button:nth-child(4) span {
-  color: #0077b5;  /* linkedin */
+  color: #fffc00;  /* snapchat */
 }
 .wrapper .button:nth-child(5) span {
-  color: #bfa600;  /* snapchat */
+  color: #4078c0;  /* github */
 }
 .wrapper .button:nth-child(6) span {
-  color: #171515;  /* github */
-}
-.wrapper .button:nth-child(7) span {
-  color: #b92b27;  /* quora */
-}
-.wrapper .button:nth-child(8) span {
   color: #0ebeff;  /* codepen */
 }
+.wrapper .button:nth-child(7) span {
+  color: #0a66c2;  /* linkedin */
+}
+.wrapper .button:nth-child(8) span {
+  color: #b92b27;  /* quora */
+}
 .wrapper .button:nth-child(9) span {
+  color: #ff9900;  /* amazon */
+}
+.wrapper .button:nth-child(10) span {
   color: #037d50;  /* e-mail */
 }
