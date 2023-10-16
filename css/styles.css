@@ -1,5 +1,60 @@
 <!-- social icons buttons more -->
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+body {
+  color:#FFF; 
+  font-family: 'Oswald', sans-serif; 
+  min-width:960px;
+  top:0;
+  left:0;
+  position:absolute;
+  height:100%;
+  width:100%;
+  margin:0;
+  background:url(images/Silus-and-Kitterson.jpg) no-repeat;
+  background-size:cover;
+}
+.ie body {
+  filter: dropshadow(color=#000000, offx=0, offy=1);    
+}
+h1 {
+  font-size:68px;
+  letter-spacing:-2px;    
+  line-height:60px;
+  margin:25px 0;  
+  text-align:center;
+  margin-left:15px;
+  padding-top:20px;
+}
+.ie h1 {
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+  padding-bottom:12px;    
+}
+h2 { 
+}
+.ie h2 {
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h3 {
+  font-size:25px;
+  margin:0.2em 0; 
+}
+.ie h3 {
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h4 {
+  margin-bottom:5px;    
+}
+p, pre {
+  margin:0 0 10px 0; 
+}
+code {
+  text-transform:uppercase !important;
+  color:#EEE;    
+  border-bottom:1px dotted #666;
+}
+
+<!-- before wip -->
 .wrapper .button {
   display: inline-block;
   height: 60px;
