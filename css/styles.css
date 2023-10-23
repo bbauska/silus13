@@ -1,8 +1,7 @@
-<!-- social icons buttons more -->
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
-
+<!-- styles of silus12.bauska.org -->
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 body {
-  color:#FFF; 
+  color:#fff;  /* white */
   font-family: 'Oswald', sans-serif; 
   min-width:960px;
   top:0;
@@ -11,15 +10,15 @@ body {
   height:100%;
   width:100%;
   margin:0;
-  background:url(images/Silus-and-Kitterson.jpg) no-repeat;
+  background:url(../images/Silus-and-Kitterson.jpg) no-repeat;
   background-size:cover;
 }
 .ie body {
-  filter: dropshadow(color=#000000, offx=0, offy=1);    
+  filter: dropshadow(color=#000000, offx=0, offy=1);
 }
 h1 {
   font-size:68px;
-  letter-spacing:-2px;    
+  letter-spacing:-2px;	
   line-height:60px;
   margin:25px 0;  
   text-align:center;
@@ -28,7 +27,7 @@ h1 {
 }
 .ie h1 {
   filter: dropshadow(color=#000000, offx=0, offy=3);
-  padding-bottom:12px;    
+  padding-bottom:12px;	
 }
 h2 { 
 }
@@ -43,15 +42,37 @@ h3 {
   filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h4 {
-  margin-bottom:5px;    
+  margin-bottom:5px;
 }
 p, pre {
-  margin:0 0 10px 0; 
+  margin:0 0 10px 0;
 }
 code {
   text-transform:uppercase !important;
-  color:#EEE;    
+  color:#eee;
   border-bottom:1px dotted #666;
+}
+small {
+  background:url(../images/alpha.png);
+  background:rgba(0, 0, 0, 0.8) url();	
+  brder:1px solid #111;
+  font-size:15px;
+  padding:0 5px;
+}
+a {
+  color:rgba(0, 210, 255, 1);
+  text-decoration:none;
+}
+a:hover {
+  color:#bbb;
+} 
+#Header {
+  margin-bottom: 62px;
+  position: relative;
+  width: 100%;
+  height: 119px;
+  line-height: 118px;
+  z-index: 1;
 }
 .wrapper {
   margin: 0 auto;
@@ -59,105 +80,279 @@ code {
   width: 920px;
   z-index: 1;
 }
-<!-- before wip -->
-.wrapper .button {
+#socialIcons {
+  display:block;
+}
+#socialIcons ul {
+  margin: 0px; 
+  padding:0px;
+  text-align: center;
+}
+#socialIcons ul li {
+  margin-right: 5px;
+  height: 34px;
+  line-height: 34px;
+  list-style-type: none;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.44);
+}
+#socialIcons ul li a{
+  width:34px;
+  height:34px; 
+  display: inline-block;
+}
+#Content h2 {
+  margin: 0px 0px 65px 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  color:#00d2ff;  /* pure cyan */
+}
+#Content h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  display: block;
+  clear: both;
+}
+.countdown {
+  font-size: 20px;
+  text-align:center;
+}
+.styled{
+  margin-bottom: 90px;
+}
+.styled div {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 45px;  /* 60px */
+  font-weight: normal; 
+  text-align: center;
+  margin:0 25px;
+  width:100px;
+  padding:30px;
+  border-radius:80px;
+  background:rgba(255, 255, 255, 0.26);
+  height:100px; 
+  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15); 
+  text-shadow:none;
+  vertical-align: middle; 
+  border: 1px solid rgba(255, 255, 255, 0.76);
+}
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  border-top: 1px solid #cecece;
+  padding-top: 3px;
+  font-size: 19px;
+  font-weight: normal; 
+  text-align: center;
+}
+footer{
+  width:100%;
+  height:30px;
+  background:rgba(0, 0, 0, 0.64);
+  position:absolute;
+  bottom:0px;
+}
+  footer span{
+  float:right;
+  margin:10px;
+}
+@media(max-width:768px){
+  body {
+  min-width: initial !important;
+  }
+  .wrapper{width:100%;}
+  .styled div {
+    margin-bottom:10px; 
+  }
+}
+
+@media(max-width:420px){
+  h1{
+    float:initial;
+    text-align: center;
+    margin-left:0px;
+    margin-bottom:0px;
+  }
+  .styled div {
+    margin-bottom:10px;
+    font-size: 40px;
+    font-weight: normal; 
+    text-align: center;
+    width:80px; 
+    border-radius:80px; 
+    height:80px;  
+  }
+  #Content h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+  }
+  .styled {
+    margin-bottom: 30px;
+  }
+  #subscribe input[type="button"]{
+    margin-top:10px;
+  }
+  #subscribe input{
+    width:80%;
+  }
+  footer{
+    position:relative !important;
+  }
+}
+
+/* Silus */
+// Please change your favorite font-size!
+$fontSize: 8rem;
+
+div {
+  transform-style: preserve-3d;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper .button{
   display: inline-block;
   height: 60px;
   width: 60px;
   float: left;
   margin: 0 5px;
   overflow: hidden;
-  background: #fff;
+  background: #fff;  /* fff - white */
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-out;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.4s ease-out;
 }
-.wrapper .button:hover {
+.wrapper .button:hover{
   width: 200px;
+  text-decoration: none;  /* 10-21-23 */
 }
-.wrapper .button .icon {
+.wrapper .button .icon{
+  color: fff;  /* white */
   display: inline-block;
   height: 60px;
   width: 60px;
   text-align: center;
+  text-decoration: none;  /* 10-21-23 */
   border-radius: 50px;
   box-sizing: border-box;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1):hover .icon {
-  background: #4267b2;  /* facebook - dark moderate blue */
+.wrapper .button:hover .icon i{
+  text-decoration: none;  /* 10-21-23 */
+  color: #fff;  /* white */
 }
-.wrapper .button:nth-child(2):hover .icon {
-  background: #ff0000;  /* youtube - pure red */
+.wrapper .button:hover .icon a{
+  text-decoration: none;  /* 10-21-23 */
+  color: #fff;  /* white */
 }
-.wrapper .button:nth-child(3):hover .icon {
-  background: #1da1f2;  /* twitter - vivid blue */
+.wrapper .button:nth-child:hover(1) .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #4267b2;  /* dark moderate blue */
 }
-.wrapper .button:nth-child(4):hover .icon {
-  background: #fffc00;  /* snapchat - pure yellow */
+.wrapper .button:nth-child(1):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #4267b2;  /* dark moderate blue */
 }
-.wrapper .button:nth-child(5):hover .icon {
-  background: #4078c0;  /* github - moderate blue */
+.wrapper .button:nth-child(2):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #b2071d;  /* dark red */
 }
-.wrapper .button:nth-child(6):hover .icon {
-  background: #0ebeff;  /* codepen -  vivid blue */
+.wrapper .button:nth-child(3):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #1da1f2;  /* vivid blue */
 }
-.wrapper .button:nth-child(7):hover .icon {
-  background: #0a66c2;  /* linkedin - strong blue */
+.wrapper .button:nth-child(4):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #bfa600;  /* strong yellow */
 }
-.wrapper .button:nth-child(8):hover .icon {
-  background: #b92b27;  /* quora - strong red */
+.wrapper .button:nth-child(5):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #171515;  /* very dark red */
 }
-.wrapper .button:nth-child(9):hover .icon {
-  background: #ff9900;  /* amazon - orange */
+.wrapper .button:nth-child(6):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #0ebeff;  /* spiro disco ball */
 }
-.wrapper .button:nth-child(10):hover .icon {
-  background: #037d50;  /* email - dark green */
+.wrapper .button:nth-child(7):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #0077b5;  /* strong blue */
 }
-.wrapper .button .icon i {
+.wrapper .button:nth-child(8):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #b92b27;  /* strong red */
+}
+.wrapper .button:nth-child(9):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #ff9900;  /* pure orange */
+}
+.wrapper .button:nth-child(10):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #037d50;  /* dark green */
+}
+.wrapper .button .icon a{
+  text-decoration: none;  /* 10-21-23 */
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:hover .icon i {
+.wrapper .button:hover .icon a{
   color: #fff;
 }
-.wrapper .button span {
+.wrapper .button span{
   font-size: 20px;
   font-weight: 500;
   line-height: 60px;
   margin-left: 10px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1) span {
-  color: #4267b2;  /* facebook */
+.wrapper .button:nth-child(1) span{
+  color: #3d5b99;  /* facebook */
 }
-.wrapper .button:nth-child(2) span {
-  color: #ff0000;  /* youtube */
+.wrapper .button:nth-child(2) span{
+  color: #e64a41;  /* b2071d; youtube */
 }
-.wrapper .button:nth-child(3) span {
-  color: #1da1f2;  /* twitter */
+.wrapper .button:nth-child(3) span{
+  color: #00aced;  /* twitter */
 }
-.wrapper .button:nth-child(4) span {
-  color: #fffc00;  /* snapchat */
+.wrapper .button:nth-child(4) span{
+  color: #bfa600;  /* snapchat */
 }
-.wrapper .button:nth-child(5) span {
-  color: #4078c0;  /* github */
+.wrapper .button:nth-child(5) span{
+  color: #5a32a3;  /* github background 322f30 */
 }
-.wrapper .button:nth-child(6) span {
-  color: #0ebeff;  /* codepen */
+.wrapper .button:nth-child(6) span{
+  color: #bfa600;  /* codepen */
 }
-.wrapper .button:nth-child(7) span {
-  color: #0a66c2;  /* linkedin */
+.wrapper .button:nth-child(7) span{
+  color: #0077b5;  /* linkedin 0073a4 and 322f30 background */
 }
-.wrapper .button:nth-child(8) span {
+.wrapper .button:nth-child(8) span{
   color: #b92b27;  /* quora */
 }
-.wrapper .button:nth-child(9) span {
+.wrapper .button:nth-child(9) span{
   color: #ff9900;  /* amazon */
 }
-.wrapper .button:nth-child(10) span {
+.wrapper .button:nth-child(10) span{
   color: #037d50;  /* e-mail */
 }
