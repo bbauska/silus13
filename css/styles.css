@@ -22,7 +22,6 @@
     <div class="countdown styled"></div>
     <div id="subscribe">
       <h3>One time event</h3>
-	  <div class="wrapper">
         <div class="button">
           <div class="icon">
             <i class="fab fa-facebook-f"></i>
@@ -103,10 +102,9 @@
             <span>Email</span>
           </a>
         </div>  <!-- class="button" -->
-	  </div>  <!-- class="wrapper" -->
     </div>  <!-- id="subscribe" -->
-  <div id="overlay"></div>
-</div>  <!--  id="Content" class="wrapper" -->
+    <div id="overlay"></div>
+  </div>  <!--  id="Content" class="wrapper" -->
 
     <div id="overlay"></div>
 
