@@ -11,9 +11,10 @@ html, body{
   height:100%;
   width: 100%;
   place-items:center;
-  background: linear-gradient(315deg, #ffffff, #d7e1ec );
+  background:url(../images/Silus-and-Kitterson.jpg) no-repeat;
+  background-size:cover;
+/*  background: linear-gradient(315deg, #ffffff, #d7e1ec ); */
 }
-
 /* @import url(https://fonts.googleapis.com/css?family=Oswald:400,700); */
 /* body { */
 /*   color:#fff;  /* white */
@@ -51,8 +52,7 @@ h2 {
   filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
-  font-size:40px;
-  font: Bahnschrift;
+  font-size:25px;
   margin:0.2em 0; 
   text-align:center;
 }
@@ -74,7 +74,7 @@ code {
 small {
   background:url(../images/alpha.png);
   background:rgba(0, 0, 0, 0.8) url();	
-  brder:1px solid #111;  /* very dark gray */
+  brder:1px solid #111;
   font-size:15px;
   padding:0 5px;
 }
@@ -83,7 +83,7 @@ a {
   text-decoration:none;
 }
 a:hover {
-  color:#bbb;  /* gray */
+  color:#BBB;
 } 
 #Header {
   margin-bottom: 62px;
@@ -94,6 +94,7 @@ a:hover {
   line-height: 118px;
   z-index: 1;
 }  /* id Header */
+
 .wrapper{
   text-align: center;
   display: inline-flex;
@@ -114,7 +115,7 @@ a:hover {
   display: block;
   height: 60px;
   width: 60px;
-  background: #fff;  /* white */
+  background: #fff;
   border-radius: 50%;
   position: relative;
   z-index: 2;
@@ -129,8 +130,8 @@ a:hover {
   position: absolute;
   top: 0;
   z-index: 1;
-  background: #fff;  /* white */
-  color: #fff;  /* white */
+  background: #fff;
+  color: #fff;
   padding: 10px 18px;
   font-size: 20px;
   font-weight: 500;
@@ -145,17 +146,7 @@ a:hover {
   opacity: 1;
   pointer-events: auto;
 }
-.icon .tooltip:before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: #fff;
-  left: 50%;
-  bottom: -6px;
-  transform: translateX(-50%) rotate(45deg);
-  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
+
 .wrapper h1 {
   font-size:68px;
   letter-spacing:-2px;	
@@ -167,7 +158,7 @@ a:hover {
 }
 .wrapper .icon:hover span{
   color: #fff;
-/*  text-align: center; */
+  text-align: center;
 }
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip{
@@ -223,6 +214,18 @@ a:hover {
 .wrapper .email:hover .tooltip:before{
   background: #013220;  /* very dark (mostly black) cyan - lime green */
 }
+.icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
 #Content h2 {
   margin: 0px 0px 65px 0px;
   padding: 0px;
@@ -241,7 +244,7 @@ a:hover {
 
 .countdown {
   font-size: 20px;
-  text-align:center;
+  text-align: center;
 }  /* class countdown */
 
 .styled{
@@ -253,10 +256,10 @@ a:hover {
   font-size: 60px;  /* 60px */
   font-weight: normal; 
   text-align: center;
-  margin:0 25px;
-  width:100px;
-  padding:30px;
-  border-radius:80px;
+  margin: 0 25px;
+  width: 100px;  /* 100 */
+  padding:30px;  /* 30px */
+  border-radius:80px;  /* 80px */
   background:rgba(255, 255, 255, 0.26);
   height:100px; 
   background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15); 
@@ -291,7 +294,7 @@ footer{
   bottom:0px;
 }  /* footer */
   footer span{
-  float:middle;
+  float:right;
   margin:10px;
 }  /* footer span */
 
