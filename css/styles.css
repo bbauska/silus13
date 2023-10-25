@@ -1,118 +1,387 @@
-<!DOCTYPE HTML>
-<!-- index.html of silus13.bauska.org -->
-<head>
-  <meta charset="utf-8">
-  <title>Silus Gaming World Birthday Extravaganza - Coming 2023!!!</title>
-  <meta name="title" content="Silus13">
-  <meta name="description" content="Silus Gaming World Birthday Page">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-</head>
+<!-- styles of silus12.bauska.org -->
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html, body{
+  display:grid;
+  height:100%;
+  width: 100%;
+  place-items:center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec );
+}
 
-<body id="home">
-  <div id="Header">
-    <div class="wrapper">
-      <h1>Silus Gaming World Birthday</h1>
-    </div>
-  </div>
-  <div id="Content" class="wrapper">
-    <h2>Stay tuned for Silus' 13th birthday....</h2>
-    <div class="countdown styled"></div>
-    <div id="subscribe">
-      <h3>One time event</h3>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-facebook-f"></i>
-          </div>
-          <a href="https://www.facebook.com/brianbauska" target="_blank">
-            <span>Facebook</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-youtube"></i>
-          </div>
-          <a href="https://www.youtube.com/channel/UCriWRGaYWMtLWNCxrWP_i6A" target="_blank">
-            <span>YouTube</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-twitter"></i>
-          </div>
-          <a href="https://twitter.com/brianbauska/" target="_blank">
-            <span>Twitter</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-          <a href="https://web.snapchat.com/bbauska" target="_blank">
-            <i class="fab fa-snapchat"></i>
-          </div>
-            <span>Snapchat</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-github"></i>
-          </div>
-          <a href="https://github.com/bbauska" target="_blank">
-            <span>Github</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-codepen"></i>
-          </div>
-          <a href="https://codepen.io/bbauska" target="_blank">
-            <span>CodePen</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-linkedin"></i>
-          </div>
-          <a href="https://www.linkedin.com/in/brian-bauska-89240679/" target="_blank">
-            <span>LinkedIn</span>
-          </a>
-        </div>
-	    <div class="button">
-		  <div class="icon">
-		    <i class="fab fa-quora"></i>
-		  </div>
-		  <a href="https://www.quora.com/profile/Brian-Bauska" target="_blank">
-		  <span>Quora</span>
-	        </a>
-          </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fab fa-amazon"></i>
-          </div>
-          <a href="https://www.amazon.com/brianbauska@gmail.com" target="_blank">
-            <span>Amazon</span>
-          </a>
-        </div>
-        <div class="button">
-          <div class="icon">
-            <i class="fa fa-envelope"></i>
-          </div>
-          <a href="https://mail.google.com/mail/u/0/?tab=km#inbox" target="_blank">
-            <span>Email</span>
-          </a>
-        </div>  <!-- class="button" -->
-    </div>  <!-- id="subscribe" -->
-    <div id="overlay"></div>
-  </div>  <!--  id="Content" class="wrapper" -->
+/* @import url(https://fonts.googleapis.com/css?family=Oswald:400,700); */
+/* body { */
+/*   color:#fff;  /* white */
+/*   font-family: 'Oswald', sans-serif;   */
+/*   min-width:960px;  */
+/*   top:0;  */
+/*   left:0;  */
+/*   position:absolute;  */
+/*   height:100%;  */
+/*   width:100%;  */
+/*   margin:0;  */
+/*   background:url(../images/Silus-and-Kitterson.jpg) no-repeat;  */
+/*   background-size:cover;  */
+/* }  */
+/* .ie body {  */
+/*   filter: dropshadow(color=#000000, offx=0, offy=1);  */
+/* }  */
+h1 {
+  font-size:68px;
+  letter-spacing:-2px;	
+  line-height:60px;
+  margin:25px 0;  
+  text-align:center;
+  margin-left:15px;
+  padding-top:20px;
+}
+.ie h1 {
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+  padding-bottom:12px;	
+}
+h2 {
+  font-size:50px;
+}
+.ie h2 {
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h3 {
+  font-size:40px;
+  font: Bahnschrift;
+  margin:0.2em 0; 
+  text-align:center;
+}
+.ie h3 {
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h4 {
+  margin-bottom:5px;
+}
 
-    <div id="overlay"></div>
+p, pre {
+  margin:0 0 10px 0;
+}
+code {
+  text-transform:uppercase !important;
+  color:#EEE;	
+  border-bottom:1px dotted #666;
+}
+small {
+  background:url(../images/alpha.png);
+  background:rgba(0, 0, 0, 0.8) url();	
+  brder:1px solid #111;  /* very dark gray */
+  font-size:15px;
+  padding:0 5px;
+}
+a {
+  color:rgba(0, 210, 255, 1);
+  text-decoration:none;
+}
+a:hover {
+  color:#bbb;  /* gray */
+} 
+#Header {
+  margin-bottom: 62px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 119px;
+  line-height: 118px;
+  z-index: 1;
+}  /* id Header */
+.wrapper{
+  text-align: center;
+  display: inline-flex;
+}
+.wrapper .icon{
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}  /* class wrapper icon */
+.wrapper .icon span{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;  /* white */
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}  /* class wrapper icon span */
+.wrapper .icon span i{
+  line-height: 60px;
+  font-size: 25px;
+}  /* wrapper icon span i */
+.wrapper .icon .tooltip{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;  /* white */
+  color: #fff;  /* white */
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}  /* class wrapper icon tooltip */
+.wrapper .icon:hover .tooltip{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper h1 {
+  font-size:68px;
+  letter-spacing:-2px;	
+  line-height:60px;
+  margin:25px 0;  
+  text-align:center;
+  margin-left:15px;
+  padding-top:20px;
+}
+.wrapper .icon:hover span{
+  color: #fff;
+/*  text-align: center; */
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before{
+  background: #1877f2;  /* vivid blue */
+}
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before{
+  background: #ff0000;  /* pure red */
+}
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before{
+  background: #1da1f2;  /* vivid blue */
+}
+.wrapper .snapchat:hover span,
+.wrapper .snapchat:hover .tooltip,
+.wrapper .snapchat:hover .tooltip:before{
+  background: #fffc00;  /* pure yellow */
+}
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before{
+  background: #171515;  /* very dark (mostly black) red */
+}
+.wrapper .codepen:hover span,
+.wrapper .codepen:hover .tooltip,
+.wrapper .codepen:hover .tooltip:before{
+  background: #47cf73;  /* moderate cyan - lime green */
+}
+.wrapper .linkedin:hover span,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip:before{
+  background: #0077b5;  /* strong blue */
+}
+.wrapper .quora:hover span,
+.wrapper .quora:hover .tooltip,
+.wrapper .quora:hover .tooltip:before{
+  background: #aa2200;  /* dark red */
+}
+.wrapper .amazon:hover span,
+.wrapper .amazon:hover .tooltip,
+.wrapper .amazon:hover .tooltip:before{
+  background: #ff9900;  /* pure (or mostly pure) orange */
+}
+.wrapper .email:hover span,
+.wrapper .email:hover .tooltip,
+.wrapper .email:hover .tooltip:before{
+  background: #013220;  /* very dark (mostly black) cyan - lime green */
+}
+#Content h2 {
+  margin: 0px 0px 65px 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  color:#00d2ff;  /* pure cyan */
+}  /* id Content h2 */
+#Content h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  display: block;
+  clear: both;
+}  /* id Content h3 */
 
-    <!-- scripts -->
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="js/Backstretch.js"></script>
-    <script type="text/javascript" src="js/jquery.countdown.js"></script>
-    <script type="text/javascript" src="js/global.js"></script>
+.countdown {
+  font-size: 20px;
+  text-align:center;
+}  /* class countdown */
 
-  </body>
-</html>
+.styled{
+  margin-bottom: 90px;
+}  /* class styled */
+.styled div {
+  display: inline-block;
+  margin-left: auto;  /* 10px */
+  font-size: 60px;  /* 60px */
+  font-weight: normal; 
+  text-align: center;
+  margin:0 25px;
+  width:100px;
+  padding:30px;
+  border-radius:80px;
+  background:rgba(255, 255, 255, 0.26);
+  height:100px; 
+  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15); 
+  text-shadow:none;
+  vertical-align: middle; 
+  border: 1px solid rgba(255, 255, 255, 0.76);
+}  /* class styled div */
+
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}  /* microsoft's ie shit */
+
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  border-top: 1px solid #cecece;
+  padding-top: 3px;
+  font-size: 19px;
+  font-weight: normal; 
+  text-align: center;
+}  /* class styled div span */
+
+footer{
+  width:100%;
+  height:30px;
+  background:rgba(0, 0, 0, 0.64);
+  position:absolute;
+  bottom:0px;
+}  /* footer */
+  footer span{
+  float:middle;
+  margin:10px;
+}  /* footer span */
+
+@media(max-width:768px){
+  body {
+  min-width: initial !important;
+  }
+  .wrapper{width:100%;}
+  .styled div {
+    margin-bottom:10px; 
+  }
+}  /* end max-width: 768px */
+
+@media(max-width:420px){
+  h1{
+    float:initial;
+    text-align: center;
+    margin-left:0px;
+    margin-bottom:0px;
+  }
+  .styled {
+    margin-bottom: 30px;
+  }
+  .styled div {
+    margin-bottom:10px;
+    font-size: 40px;
+    font-weight: normal; 
+    text-align: center;
+    width:80px; 
+    border-radius:80px; 
+    height:80px;  
+  }
+  #Content h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+  }
+footer{
+    position:relative !important;
+  }
+}  /* end max-width: 420 */
+
+/* Silus */
+// Please change your favorite font-size!
+$fontSize: 8rem;
+
+body {
+  background: rgba(20, 5, 5, 1);
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  perspective: 800px;
+}
+div {
+  transform-style: preserve-3d;
+}
+
+  @media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+  /* horizontal line */
+  hr { 
+    display: block;
+    width: 50%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    background-color: red;
+    color: red;
+    height: 2px;
+  }
+/* unordered list styles */
+  ul.list-styles {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+  ul.list-styles2 {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  ul.list-styles3 {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+}  /* media only screen min-width: 2000 */
