@@ -12,7 +12,7 @@ html, body{
   width: 100%;
   place-items:center;
   background:url('../images/Silus Halloween.jpg') no-repeat;
-  background-size:cover;
+  background-size: 300px 100px, cover;
 /*  background: linear-gradient(315deg, #ffffff, #d7e1ec ); */
 }
 /* @import url(https://fonts.googleapis.com/css?family=Oswald:400,700); */
