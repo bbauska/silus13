@@ -6,7 +6,7 @@ Description: Vento is a responsive coming soon template, It is lightweight templ
 
 Features :
 --------
-=> Easy to use, Heigh quality coded HTML5 and CSS3.
+=> Easy to use, High quality coded HTML5 and CSS3.
 => Multi device compatibility
 => Responsive design with bootstrap
 => premium quality template
