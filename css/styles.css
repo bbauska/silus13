@@ -7,31 +7,16 @@
   font-family: 'Poppins', sans-serif;
 }
 html, body{
+  background: url(images/Silus-Kitterson.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display:grid;
   height:100%;
   width: 100%;
   place-items:center;
-  background:url('../images/Silus Halloween.jpg') no-repeat;
-  background-size: 300px 100px, cover;
-/*  background: linear-gradient(315deg, #ffffff, #d7e1ec ); */
 }
-/* @import url(https://fonts.googleapis.com/css?family=Oswald:400,700); */
-/* body { */
-/*   color:#fff;  /* white */
-/*   font-family: 'Oswald', sans-serif;   */
-/*   min-width:960px;  */
-/*   top:0;  */
-/*   left:0;  */
-/*   position:absolute;  */
-/*   height:100%;  */
-/*   width:100%;  */
-/*   margin:0;  */
-/*   background:url(../images/Silus-and-Kitterson.jpg) no-repeat;  */
-/*   background-size:cover;  */
-/* }  */
-/* .ie body {  */
-/*   filter: dropshadow(color=#000000, offx=0, offy=1);  */
-/* }  */
 h1 {
   font-size:68px;
   letter-spacing:-2px;	
