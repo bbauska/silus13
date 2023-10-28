@@ -1,4 +1,4 @@
-<!-- styles of silus12.bauska.org -->
+<!-- styles of silus13.bauska.org -->
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -197,7 +197,7 @@ a:hover {
 .wrapper .email:hover span,
 .wrapper .email:hover .tooltip,
 .wrapper .email:hover .tooltip:before{
-  background: #013220;  /* very dark (mostly black) cyan - lime green */
+  background: #00640;  /* very dark lime green */
 }
 .icon .tooltip:before{
   position: absolute;
