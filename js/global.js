@@ -3,7 +3,7 @@ $( function() {
   // add background image - 3rd countdown to 13th birthday 10/11/2023.
   $.backstretch('./images/Silus-and-Kitterson.jpg');
   // date of birth: 10/11/10.
-  var endDate = "Oct  11, 2024 11:59:59";
+  var endDate = "Oct  11, 2023 11:59:59";
   $('.countdown.simple').countdown({ date: endDate });
   $('.countdown.styled').countdown({
     date: endDate,
