@@ -50,16 +50,10 @@ p, pre {
 }
 code {
   text-transform:uppercase !important;
-  color:#EEE;	
+  color:#eee;	
   border-bottom:1px dotted #666;
 }
-small {
-  background:url(../images/alpha.png);
-  background:rgba(0, 0, 0, 0.8) url();	
-  brder:1px solid #111;
-  font-size:15px;
-  padding:0 5px;
-}
+
 a {
   color:rgba(0, 210, 255, 1);
   text-decoration:none;
@@ -67,6 +61,7 @@ a {
 a:hover {
   color:#BBB;
 } 
+
 #Header {
   margin-bottom: 62px;
   text-align: center;
