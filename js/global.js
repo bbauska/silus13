@@ -1,7 +1,7 @@
 /* global.js - theme by: brian a. bauska (grandpa) */
 $( function() {
   // add background image - 3rd countdown to 13th birthday 10/11/2023.
-  $.backstretch('./images/Silus-and-Kitterson.jpg');
+  $.backstretch('./images/Kitterson-007-450x600.jpg');
   // date of birth: 10/11/10.
   var endDate = "Oct  11, 2023 11:59:59";
   $('.countdown.simple').countdown({ date: endDate });
