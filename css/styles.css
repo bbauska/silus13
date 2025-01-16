@@ -13,7 +13,7 @@ html, body{
   place-items:center;
   background: url(../images/Silus-and-Kitterson.jpg);
   background-repeat: no-repeat;
-  background-size: 500px 667px;
+  background-size: 100%;
 }
 h1 {
   font-size:68px;
